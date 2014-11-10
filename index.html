@@ -1,0 +1,15 @@
+<script src="jspm_packages/system.js"></script>
+<script src="config.js"></script>
+<script>
+    /* global System */
+    /* jshint browser: true */
+    System.import('query-string')
+        .then(function (queryString) {
+            window.console.log(queryString);
+        })
+        .catch(function (error) {
+            setTimeout(function () {
+                throw error;
+            }, 0);
+        });
+</script>
