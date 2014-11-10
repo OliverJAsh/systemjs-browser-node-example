@@ -1,5 +1,8 @@
 {
   "name": "systemjs-node",
+  "dependencies": {
+    "systemjs": "^0.9.3"
+  },
   "jspm": {
     "dependencies": {
       "query-string": "npm:query-string@^1.0.0"
